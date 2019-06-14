@@ -1,0 +1,329 @@
+
+*{
+
+	font-family: 'Kaushan Script', cursive;;
+	padding: 0px 0px;
+
+}
+
+
+#loading{
+	position: fixed;
+width: 100%;
+height: 100vh;
+background:white url('circles.svg') no-repeat center;
+z-index: 99999;
+
+
+
+}
+
+
+.bgimg{
+
+
+	 background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('bigmann.JPG'); 
+	 background-size:100% 100%;
+	 background-repeat: no-repeat;
+	 	 width: 100%;
+	 height:650px;
+}
+.bgimg .container{
+
+	
+}
+
+.bgimg .container{
+
+max-width: 1180px;
+margin:0 auto;
+
+}
+
+
+
+.bgimg .container .btn{
+	
+	
+	
+	border-radius: 200px;
+display: inline-block;
+padding: 10px 30px;
+font-weight: lighter;
+transition:background-color 0.2s,border 0.2s,color 0.2;
+
+}
+
+
+.bgimg .container .btn-nav{
+	background-color:transparent;
+color: #bf55ec;
+border:2px solid #bf55ec;
+
+
+
+}
+main{
+
+width:100%;height: 10%;
+background-color: transparent;
+text-align: center;
+
+
+
+
+
+}
+.change-content:after{
+	content: '';
+	animation: changetext 5s linear infinite;
+	font-size: 3.0em;
+   
+
+
+}
+
+@keyframes changetext{
+
+      0%{content: "designer";}
+    25%  {content: "full stack developer";}
+    50%  {content: " developer";}
+    75%  {content:  "web developer";}
+    100% {content: "front end developer";}
+
+}
+.fa{
+
+	color: white;
+	padding-right: 10px;
+font-size: 27px;
+}
+
+
+
+.headerset{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+.headerset h2{
+	font-size: 42px;
+
+}
+.headerset h1{
+	font-size: 72px;
+	font-weight: bold;
+}
+
+/*..........slideshow.........*/
+
+.slideshow{
+	 background-color:grey;
+	
+	  height: 600px;
+      width: 100%;
+overflow: hidden;
+  position: relative;
+  display: inline-block;
+
+	 
+}
+img{
+	opacity: 0.5;
+
+     position:relative;
+	 
+	 text-align:center;
+	 background-size: 100% 100% auto;
+	 height: 100%;
+     width: 100%;
+
+
+}
+
+
+.heading{
+
+	font-size: 25px;
+	font-weight: bold;
+	color:black;position:relative;widows: 100%;text-align: center;
+
+}
+
+
+
+
+
+
+.portfolio{
+	
+  height: 600px;
+  width: 100%;
+  padding: 100px 0px 60px;
+
+  
+
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+
+
+
+.ourteam{
+    
+       height: 600px;
+      width: 100%;
+overflow: hidden;
+  position: relative;
+  display: inline-block;
+
+
+}
+
+
+.ourteam h1{
+font-size: 50px;
+font-weight: bold;
+
+}
+.teamsetting .figure{
+	margin:20px ;
+	 width: 100%;
+	 height: 70px;
+
+}
+
+
+.footer{
+	height: 50%
+}
+.footer h6{
+	margin-top: 20%;
+	line-height: 250px;
+}
+
+
+
+
+
+@media only screen and (max-width: 579px){
+	.imgsetting{
+	border-radius: 50%;
+	height: 20%;
+	width: 30%;
+}
+
+  .row h2{
+   	
+   font-size: 15px;
+   font-weight: bold;
+     padding: none;
+     width: auto;
+     
+    
+
+   } 
+   
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+ 
+
+   .row h2{
+   	
+   font-size: 15px;
+   font-weight: bold;
+     padding: none;
+     width: auto;
+     
+    
+
+   } 
+   .row p{
+   	font-size: 10px;
+   	text-align:center;
+    padding: 10px;
+
+   }
+
+   .portfolio .container .card{
+
+      width: 30%;
+       margin: 6px 150px;
+       
+
+   }
+   .container h1{
+   	text-align: center;
+   	font-size: 30px;
+   	
+   }
+
+.footer{
+
+display: block;
+		width: 100%;
+		padding-top: 470px;
+		
+
+
+
+}
+ 
+
+}
+.card{
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.colorchange{
+
+	animation: colorchangemani 1s infinite;
+}
+
+@keyframes colorchangemani{
+0%{color: red;}
+25%{color: white;}
+50%{color: yellow}
+100%{color: purple;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
