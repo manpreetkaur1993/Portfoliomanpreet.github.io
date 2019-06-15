@@ -277,6 +277,15 @@ display: block;
 
 }
  
+.ourteam{
+    
+       height: 1600px;
+      width: 100%;
+overflow: hidden;
+  position: relative;
+  display: inline-block;
+
+
 
 }
 .card{
